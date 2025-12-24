@@ -45,15 +45,15 @@ function playRound() {
 
 function playGame() {
     playRound();
-    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    console.log("The score is: " + humanScore + " - " + computerScore + ".");
     playRound();
-    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    console.log("The score is: " + humanScore + " - " + computerScore + ".");
     playRound();
-    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    console.log("The score is: " + humanScore + " - " + computerScore + ".");
     playRound();
-    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    console.log("The score is: " + humanScore + " - " + computerScore + ".");
     playRound();
-    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    console.log("The score is: " + humanScore + " - " + computerScore + ".");
 }
 
 playGame();
