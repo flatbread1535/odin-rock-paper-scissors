@@ -55,3 +55,5 @@ function playGame() {
     playRound();
     console.log("The score is: " + userScore + " - " + computerScore + ".");
 }
+
+playGame();
