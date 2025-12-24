@@ -42,3 +42,16 @@ function playRound() {
         console.log("You tied!");
     }
 }
+
+function playGame() {
+    playRound();
+    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    playRound();
+    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    playRound();
+    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    playRound();
+    console.log("The score is: " + userScore + " - " + computerScore + ".");
+    playRound();
+    console.log("The score is: " + userScore + " - " + computerScore + ".");
+}
