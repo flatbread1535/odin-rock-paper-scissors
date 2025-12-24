@@ -8,3 +8,11 @@ function getComputerChoice() {
         return "scissors";
     }
 }
+
+function getHumanChoice() {
+    let choice = prompt("Please enter a choice: ");
+    return choice;
+}
+
+let humanScore = 0;
+let computerScore = 0;
