@@ -1,4 +1,8 @@
 function getComputerChoice() {
+    /* 
+     * Multiplying Math.random() by 3 generates number in domain [0, 3).
+     * Then using Math.floor() to floor the number gives a uniform distribution of 0, 1, or 2.
+     */
     let num =  Math.floor(3 * Math.random());
     if (num === 0) {
         return "rock";
@@ -11,7 +15,7 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let choice = prompt("Please enter a choice: ");
-    return choice.toLowerCase();
+    return choice.toLowerCase(); // toLowerCase() makes input case-insensitive
 }
 
 let humanScore = 0;
